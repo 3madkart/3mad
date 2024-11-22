@@ -80,6 +80,11 @@
   background-color: #56CFA3;
 }
 
+.coming-soon {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -90,18 +95,13 @@
   color: white;
 }
 
-.contact p {
-  margin: 0.5rem 0;
-}
-
-.social a {
-  margin-left: 1rem;
+.footer a {
   color: #6C63FF;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.social a:hover {
+.footer a:hover {
   color: #F6D7A7;
 }
 
